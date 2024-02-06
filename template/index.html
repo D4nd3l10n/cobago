@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portofolio Saya</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="static/css/index.css">
+	<link rel="stylesheet" href="static/css/formmail.css">
+</head>
+<body>
+	<header>
+		<h1>Halaman Portofolio</h1>
+	</header>
+	
+	<main>
+		<section>
+            <img src="static/img/tentang.png" width="300" height="400">
+		</section>
+		
+		<section>
+			<h2>Tentang Saya</h2>
+			<p>Selamat datang di halaman portofolio saya!<br> Saya adalah seorang yang bersemangat dan berdedikasi dalam mengembangkan keterampilan yang saya miliki di bidang teknologi informasi.</p><br>
+			<p>Saya percaya bahwa dalam dunia teknologi informasi, belajar adalah proses yang berkelanjutan, dan saya selalu berusaha untuk terus belajar dan mengikuti perkembangan dalam keterampilan saya.</p><br>
+			<p>Terima kasih telah meluangkan waktu untuk mengunjungi halaman portofolio saya. Jika Anda ingin tahu lebih banyak tentang saya, silahkan klik beberapa pilihan icon platform yang tersedia.</p>
+		</section>
+		<section></section>
+
+		<div class="batas">
+			<h3>Aplikasi yang pernah Saya buat</h3>
+		</div>
+		
+		<section>
+			<div class="deskripsi">
+				<p style="color: #d56906;">Website Checkpoint IoT</p>
+				<p>Website ini di bangun untuk menyelesaikan tugas akhir atau skripsi saya (Bagian hardware di kerjakan oleh partner saya rida zaimus yang saat itu juga sedang mengerjakan tugas 
+					akhir /skripsi).Teknologi yang di gunkanan untuk membangun website ini adalah php native,css,html,javascript dan mysql sebagai database.
+					Pada website ini terdapat dashboard admin yang digunakan untuk 
+					mengelola data seperti mendaftarkan,menghapus,edit,dan membuat laporan dalam bentuk document seperti microsoft word dan excel.
+				Pada halaman utama ditampilkan sebuah data pendaki yang sudah di daftarkan dan sebuah halaman peta lokasi alat IoT berupa LoRa dan RFID Reader.Peta pada 
+			website ini menggunakan peta opensource dari OpenStreetMap. </p><a style="color:aliceblue; margin:2%;" href="https://github.com/Mhidate/Checkpoint" target="_blank">Link app</a>
+			</div>
+		</section>
+		<section>
+			<div class="deskripsi">
+				<p style="color: #d56906;">app mobile</p>
+				<p>Masih proses</p>
+			</div>
+		</section>
+		<section></section>
+	</main>
+    <br>
+
+	<div class="container" id="myForm">
+		<label>Alamat email kami</label>
+		<div class="row">
+		  <div class="col-25">
+			<input type="text" value="ayot427@gmail.com" id="myInput"></input>
+		  </div>
+		</div>
+		<div class="row>">
+			<button type="button" class="btn" onclick="myFunction()">Copy alamat email</button>
+		</div>
+		<div class="row>">
+			<button type="button" class="close" onclick="closeForm()">Close</button>
+		</div>
+	</div>
+	<br><br><br>
+	
+	<footer>
+		<a href="https://www.linkedin.com/in/muhammad-hidayatullah-81a2a61bb/" target="_blank"><img src="static/img/linkedin.png" width="30" height="30" class="icon"></a>
+        <a href="https://t.me/Yout_0" target="_blank" ><img src="static/img/telegram.png" width="30" height="30" class="icon"></a>
+		<a href="https://github.com/Mhidate" target="_blank"><img src="static/img/github.png" width="30" height="30" class="icon"></a>
+        <a onclick="openForm()"><img src="static/img/email.png" width="30" height="30" class="icon"></a>
+		<!-- <p>&copy; 2023 - Portofolio Saya</p> -->
+	</footer>
+
+
+
+</body>
+
+<script src="static/script/index.js"></script>
+
+<!-- <script type="module">
+	// Import the functions you need from the SDKs you need
+	import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+	import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+	// TODO: Add SDKs for Firebase products that you want to use
+	// https://firebase.google.com/docs/web/setup#available-libraries
+  
+	// Your web app's Firebase configuration
+	// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+	const firebaseConfig = {
+	  apiKey: "AIzaSyBkRlRHRIZHxqJ9bJk62KZKVhc2xDA5nr8",
+	  authDomain: "db-forto.firebaseapp.com",
+	  projectId: "db-forto",
+	  storageBucket: "db-forto.appspot.com",
+	  messagingSenderId: "665785382811",
+	  appId: "1:665785382811:web:93e7b2c76e7e0189f2d33e",
+	  measurementId: "G-Q4CEG254TC"
+	};
+  
+	// Initialize Firebase
+	const app = initializeApp(firebaseConfig);
+	const analytics = getAnalytics(app);
+  </script> -->
+	
+</html>
